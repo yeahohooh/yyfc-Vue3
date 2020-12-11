@@ -42,8 +42,8 @@ import { Options, Vue } from 'vue-class-component';
 <style scoped>
 .nav {
     width: 100%;
-    background-color: "#545c64";
-    height: 200px;
+    background-color: #545c64;
+    height: 60px;
 }
 .el-menu-demo {
     width: 1200px;
