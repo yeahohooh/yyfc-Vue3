@@ -1,14 +1,8 @@
 <template>
-    <el-container>
-  <el-main>
-      <img class="sectionOne" src="../assets/banner.png">
-      <img class="sectionOne" src="../assets/girl-student.png">
-      </el-main>
-</el-container>
-
-<el-container>
-  <el-main>Main</el-main>
-</el-container>
+<div class="main">
+    <img class="sectionOne" src="../assets/banner.png">
+    <img class="sectionOne" src="../assets/girl-student.png">
+</div>
 </template>
 
 <script lang="ts">
@@ -24,14 +18,12 @@ export default class HomePage extends Vue {
 <style scoped>
   .sectionOne {
       width: 1200px;
-      height: 1000px;
       position: absolute;
       margin: 0 auto;
+      /* left: 0; */
   }
-  .el-main {
+  .main {
     background-color: #E9EEF3;
-    color: #333;
-    text-align: center;
     width: 100%;
     position: relative;
   }
