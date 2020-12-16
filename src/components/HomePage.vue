@@ -101,6 +101,7 @@ export default class HomePage extends Vue {
       height: 50px;
       margin-top: 10px;
       border-radius: 25px 0 0 25px;
+      outline: 0 none;
   }
 
 </style>
